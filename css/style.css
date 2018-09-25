@@ -1,0 +1,65 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.5;
+	color: #384047;
+	padding: 0 0 80px;
+}
+
+div {
+	max-width: 610px;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 14px;
+}
+
+a {
+	color: #4183c4;
+}
+
+.gallery {
+	width: 70%;
+}
+
+.heading {
+	background-color: #077187;
+	color: white;
+	padding: 1.5em;
+	margin: 0;
+	text-align: center;
+}
+
+a[href^="http:"] {
+	color: #52bab3;
+	text-decoration: none;
+	cursor: pointer
+}
+
+.image-wrapper {
+	width: 44%;
+	margin: 2.5%;
+	display: inline-block;
+	position: relative;
+}
+
+.image-wrapper img {
+	width: 100%;
+	max-height: 210px;
+}
+
+i.material-icons {
+	display: none;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: rgb(255, 255, 255);
+	background-color: green;
+	border: 1px solid green;
+	border-radius: 50%;
+}
